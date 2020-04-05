@@ -552,7 +552,7 @@ Footer
 ************************************/
 .footer {
     padding: 60px 0 20px;
-    background: #111;
+    background: #fff !important;
     color: #ccc;
 }
 .footer a {
@@ -599,6 +599,14 @@ Footer
     padding: 40px 0 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
+
+.footer-hr-high {
+    border: 5px solid #5fcf80;
+}
+.footer-hr-low {
+    border: 3px solid #5fcf80;
+}
+
 .btn-submit:hover, .btn-submit:focus{
     background-color: #5fcf80;
     color: #fff;
