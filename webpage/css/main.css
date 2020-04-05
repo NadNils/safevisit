@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2020, 9:23:13 PM
+    Author     : niklas
+*/
+h1 {
+    color: green;
+}
+
+#mainPage {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+#registerCompanyPage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#registerCompanyForm input, #registerCompanyForm select, #registerCompanyForm label {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display:block;
+}
+#checkBoxContainer input{
+    display: inline;
+}
+#checkBoxContainer label input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.label {
+  display: block;
+  color: black;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.linkButton {
+    border: black;
+    border-width: medium;
+    border-style: solid
+}
+
+.linkButton a{
+    padding: 10px;
+}
+
