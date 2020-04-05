@@ -1,6 +1,6 @@
-Thanks for downloading this theme!
+safevisit.se
 
-Theme Name: Mentor
-Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Theme Name: Safe visit
+Theme URL: www.safevisit.se
+Author: safe visit team
+Initiative: Hack the crisis https://www.hackthecrisis.se/
