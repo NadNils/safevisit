@@ -7,6 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="./../js/main.js"></script>
         <link rel="stylesheet" type="text/css" href="./../css/main.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div id="mainPage">
@@ -15,19 +16,13 @@
                     <img src="./../img/headern.jpg" alt=""/>
                 </div>
             </header>
-            <div class="aboutText">
-                <h2>För privat person</h2>
-                <p>Här kan du söka efter företag som registrerat hur de följer folkhälsomyndighetens rekommendationer</p>
-                <div class="linkButton">
-                    <a href="./searchPage.html">Sök</a>
-                </div>
-            </div>
-            <div class="aboutText">
-                <h2>För verksamheter</h2>
-                <p>Här kan företag registrera hur de följer folkhälsomyndighetens rekommendationer</p>
-                <div class="linkButton">
-                    <a href="./registerPage.html">Registrera företag</a>
-                </div>
+            <div id="searchContainer">
+            	<div>
+            		<form class="searchForm">
+            			<input id="searchBar" placeholder="Sök.." type="text" name="searchBar">
+            			<button type="submit" name="submitButton"><i class="fa fa-search"></i></buttontyp>
+            		</form>
+            	</div>
             </div>
             
             <footer></footer>

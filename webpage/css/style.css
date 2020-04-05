@@ -5,6 +5,11 @@
     Author URL: https://bootstrapmade.com
 */
 
+#loginButton {
+    margin-top: 50%;
+    margin-bottom: 50;
+}
+
 body {
 	font-size: 15px;
     line-height: 1.52;

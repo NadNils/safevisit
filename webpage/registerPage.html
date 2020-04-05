@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register Company</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./../js/main.js"></script>
+        <script src="./../js/registercompany.js"></script>
+        <link rel="stylesheet" type="text/css" href="./../css/main.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+        <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="./img/headern.jpg" alt="" id="headerImg" width="196" height="43" /></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" data-target="#login" data-toggle="modal">Logga in</a></li>
+          <li class="btn-trial"><a href="#footer">Free Trail</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+            <div id="registerCompanyPage">
+            <h1 id="registerHeading">Registrera företag</h1>
+            <form id="registerCompanyForm">
+                <label>Ort</label>
+                <input id="cityInput" type="text" name="city"/>
+                <label>Verksamhet</label>
+                <select id="business" name="business">
+                    <option value="">Välj</option>
+                    <option value="1">Frisör</option>
+                    <option value="2">Restaurang</option>
+                </select>
+                <label>Bransch/Underkategori</label>
+                <select id="businessSubCatInput" name="businessSubCat">
+                    <option value="">Välj</option>
+                    <option value="1">Välgörenhet</option>
+                </select>
+                <label>Namn på verksamheten:</label>
+                <input id="companyNameInput" type="text" name="companyName">
+                <label>Adress</label>
+                <input id="addressInput" type="text" name="address">
+                <label>Hemsida</label>
+                <input id="websiteInput" type="text" name="website"/>
+                <label>Telefonnummer</label>
+                <input id="phoneNumberInput" type="text" name="phonenumber"/>
+                <div id="checkBoxContainer">
+                    <label class="label">
+                        <input id="2mTabels" class="checkbox" type="checkbox" value="false" name="distanceBetweenTables"/>
+                        Vi har minst 2 m mellan borden
+                    </label>              
+                    <label class="label">
+                        <input id="newGuestSani" class="checkbox" type="checkbox" value="false" name="newGuestSanitize"/>
+                        Border och stolar spritas av innan varje ny gäst</label>                    
+                    <label class="label">
+                        <input id="servAtTabel" class="checkbox" type="checkbox" value="false" name="serveAtTable">
+                        Servering sker endast vid sittande bord
+                    </label>                    
+                    <label class="label">
+                        <input id="servTakeAway" class="checkbox" type="checkbox" value="false" name="takeAway">
+                        Erbjuder takeaway av mat som inte leder till trängsel eller köer
+                    </label>                    
+                    <label class="label">
+                        <input id="handSaniComp" class="checkbox" type="checkbox" value="false" name="handSanitizePersonal">
+                        Tillhandahåller handsprit till personal
+                    </label>
+                    <label class="label">
+                        <input id="handSaniGuest" class="checkbox" type="checkbox" value="false" name="handSanitizeGuest">
+                        Tillhandahåller handsprit till gäster
+                    </label>                 
+                    <label class="label">
+                        <input id="servMouthguard" class="checkbox" type="checkbox" value="false" name="serviceMouthguard">
+                        Servicepersonal bär munnskydd
+                    </label>                    
+                    <label class="label">
+                        <input id="kitchMouthguard" class="checkbox" type="checkbox" value="false" name="kitchenMouthguard">
+                        Kökspersonal bär munnskydd
+                    </label>                    
+                    <label class="label">
+                        <input id="servGloves" class="checkbox" type="checkbox" value="false" name="serviceGloves">
+                        Servicepersonal bär handskar
+                    </label>                    
+                    <label class="label">
+                        <input id="kitchGloves" type="checkbox" value="false" name="kitchenGloves">
+                        Kökspersonal bär handskar
+                    </label>                    
+                    <label class="label">
+                        <input id="checkBodyTemp" class="checkbox" type="checkbox" value="false" name="checkBodyTemp">
+                        Personal kontrollerar kroppstemperaturen varje morgon
+                    </label class="label">
+                </div>
+                <input id="submitButton" type="submit" value="Skicka" name="submittButton"/>
+            </form>
+        </div>
+            <footer></footer>
+
+              <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+    </body>
+</html>
